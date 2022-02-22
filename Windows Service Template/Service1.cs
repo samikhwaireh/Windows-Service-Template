@@ -20,6 +20,7 @@ namespace Windows_Service_Template
             timer = new Timer();
             timer.Interval = Interval;
             timer.Elapsed += elasped;
+
         }
 
         public void Start()
